@@ -26,6 +26,6 @@ process.on('SIGTERM', function onSigint() {
   app.shutdown();
 });
 app.shutdown = function() {
-  console.log('exit....');
+  console.log('exit.....');
   process.exit();
 };
